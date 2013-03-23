@@ -1,0 +1,7 @@
+<template name="content">
+   <div id="grube" class="isDragged" style="position: absolute; top: 25px; left: 25px; bottom: 25px; right: 25px">
+   {{#each images}}
+      <img class="draggable" id="{{_id}}" src="{{src}}" style="position: absolute; top:{{top}}px; left:{{left}}px"/>
+   {{/each}}
+   </div>
+</template>
